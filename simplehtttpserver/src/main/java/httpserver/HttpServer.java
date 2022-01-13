@@ -25,4 +25,18 @@ public class HttpServer {
         }
 
     }
+
+    public void setStateServer(int i) {
+    }
+
+    public boolean setPort(int curentPort) {
+        return true;
+    }
+
+    public boolean acceptServerPort() {
+        return true;
+    }
+
+    public void listenForClients() {
+    }
 }

@@ -20,6 +20,10 @@ public class ServerListener extends Thread{
         this.serverSocket = new ServerSocket(this.p);
     }
 
+    public ServerListener() {
+
+    }
+
     @Override
     public void run() {
         try {
